@@ -29,7 +29,7 @@
 #ifndef SRC_DEASPLAY_DRIVER_LC75710_LC75710_HAL_H_
 #define SRC_DEASPLAY_DRIVER_LC75710_LC75710_HAL_H_
 
-#include "../../deasplay.h"
+#include "deasplay/deasplay.h"
 
 #define LC75710_LINES       DEASPLAY_LINES    /**< Number of lines */
 #define LC75710_CHARS       DEASPLAY_CHARS    /**< Number of character per lines */
