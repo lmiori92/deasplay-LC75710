@@ -46,4 +46,13 @@ void lc75710_hal_set_extended(uint8_t id, uint8_t *data, uint8_t len);
 #define HAS_CHARACTER_INTERFACE
 /*#define HAS_BITMAP_INTERFACE*/
 
+/* bindings */
+#define deasplay_hal_init               lc75710_display_hal_init
+#define deasplay_hal_power              lc75710_display_hal_power
+#define deasplay_hal_set_cursor         lc75710_display_hal_set_cursor
+#define deasplay_hal_write_char         lc75710_display_hal_write_char
+#define deasplay_hal_cursor_visibility  lc75710_display_hal_cursor_visibility
+#define deasplay_hal_write_extended     lc75710_write_extended
+#define deasplay_hal_set_extended       lc75710_set_extended
+
 #endif /* SRC_DEASPLAY_DRIVER_LC75710_LC75710_HAL_H_ */
